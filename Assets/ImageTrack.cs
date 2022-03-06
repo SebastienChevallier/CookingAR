@@ -9,7 +9,7 @@ using UnityEngine.XR.ARSubsystems;
 public class ImageTrack : MonoBehaviour
 {
 
-    private ARTrackedImageManager _ARTrackedImageManager;
+    public ARTrackedImageManager _ARTrackedImageManager;
 
     public GameObject[] placeablePrefabs;
     private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();
@@ -17,7 +17,7 @@ public class ImageTrack : MonoBehaviour
     private void Awake()
     {
         // Get the manager
-        _ARTrackedImageManager = FindObjectOfType<ARTrackedImageManager>();
+        //_ARTrackedImageManager = FindObjectOfType<ARTrackedImageManager>();
 
         // Instantiate and store the prefabs (limit : one prefab per image, no double)
         foreach (GameObject prefab in placeablePrefabs)
@@ -70,11 +70,11 @@ public class ImageTrack : MonoBehaviour
 
         if (!spawnedPrefabs.ContainsKey(imageName))
         {
-            Debug.LogWarning("No objects for this image : " + imageName);
+            //Debug.LogWarning("No objects for this image : " + imageName);
             return;
         }
 
-        Debug.Log("Image recognized : " + imageName);
+        //Debug.Log("Image recognized : " + imageName);
 
         GameObject prefab = spawnedPrefabs[imageName];
         prefab.transform.SetPositionAndRotation(imageTransform.position, imageTransform.rotation);

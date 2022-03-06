@@ -19,19 +19,19 @@ MonoBehaviour:
       m_GuidLow: 4905696859018256185
       m_GuidHigh: 18000870437667241656
     m_SerializedTextureGuid:
-      m_GuidLow: 16606103573519920096
-      m_GuidHigh: 10278265509713939722
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 1
+      m_GuidLow: 9436435822861016896
+      m_GuidHigh: 2462852194005094907
+    m_Size: {x: 0.1, y: 0.13333334}
+    m_SpecifySize: 0
     m_Name: Cube
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4936570826440607900
       m_GuidHigh: 5170819399626150558
     m_SerializedTextureGuid:
-      m_GuidLow: 10818922975336460048
-      m_GuidHigh: 8611426073574036392
-    m_Size: {x: 0, y: 0}
+      m_GuidLow: 4558853154098781409
+      m_GuidHigh: 18444617176789086936
+    m_Size: {x: 0.1, y: 0.13333334}
     m_SpecifySize: 0
     m_Name: Cylinder
     m_Texture: {fileID: 0}
@@ -39,9 +39,9 @@ MonoBehaviour:
       m_GuidLow: 5482347429523460413
       m_GuidHigh: 14664574804883467158
     m_SerializedTextureGuid:
-      m_GuidLow: 17155370850502952641
-      m_GuidHigh: 5035451029283292906
-    m_Size: {x: 0, y: 0}
+      m_GuidLow: 8049289566860770708
+      m_GuidHigh: 10093401839557737114
+    m_Size: {x: 0.1, y: 0.13333334}
     m_SpecifySize: 0
     m_Name: Sphere
     m_Texture: {fileID: 0}
